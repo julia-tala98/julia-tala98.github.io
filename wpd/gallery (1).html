@@ -1,0 +1,161 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pure CSS Image Lightbox</title>
+<link href="gallery (1).css" rel="stylesheet" type="text/css">
+<link href="main.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+   
+	<section id="gallery"> 
+		<!-- thumbnail image wrapped in a link -->
+		<section class="item"> 
+        	<a href="#img1"><img src="img/aster.jpg"></a>
+        </section>
+        
+		<section class="item">
+        	<a href="#img2"><img src="img/bluebells.jpg"></a>
+        </section>
+		
+        <section class="item">
+        	<a href="#img3"><img src="img/clematis.jpg"></a>
+        </section>
+        
+         <section class="item">
+        	<a href="#img4"><img src="img/cornflowers.jpg"></a>
+        </section>
+        
+         <section class="item">
+        	<a href="#img5"><img src="img/cosmo-flower.jpg"></a>
+        </section>
+        
+         <section class="item">
+        	<a href="#img6"><img src="img/lavender.jpg"></a>
+        </section>
+        
+         <section class="item">
+        	<a href="#img7"><img src="img/marigold.jpg"></a>
+        </section>
+        
+         <section class="item">
+        	<a href="#img8"><img src="img/sunflower2.jpg"></a>
+        </section>
+	</section>
+
+	<!-- lightbox container hidden with CSS -->
+	<div class="lightbox" id="img1">
+		<div class="box"> 
+        	<a class="close" href="#">✖</a>
+		<p class="title">Aster</p>
+		<div class="content2"> 
+        	<img src="img/aster.jpg">
+			<p class="desc">Lorem ipsum dolor sit amet, mei et inani gloriatur. Vix an primis meliore referrentur, eos.</p>
+        </div>
+		<a class="prev" href="#img3">←</a>
+        <a class="next" href="#img2">→</a>
+		<div class="clear"></div>
+		</div>
+    </div>
+    
+	<div class="lightbox" id="img2">
+		<div class="box"> 
+        	<a class="close" href="#">✖</a>
+		<p class="title">Bluebells</p>
+		<div class="content2"> 
+        	<img  src="img/bluebells.jpg">
+			<p class="desc">Lorem ipsum dolor sit amet, mei et inani gloriatur. Vix an primis meliore referrentur, eos.</p>
+        </div>
+		<a class="prev" href="#img1">←</a> 
+        <a class="next" href="#img3">→</a>
+		<div class="clear"></div>
+		</div>
+    </div>
+
+	<div class="lightbox" id="img3">
+		<div class="box"> 
+        	<a class="close" href="#">✖</a>
+		<p class="title">Clematis</p>
+		<div class="content2"> 
+        	<img src="img/clematis.jpg">
+			<p class="desc">Lorem ipsum dolor sit amet, mei et inani gloriatur. Vix an primis meliore referrentur, eos.</p>
+        </div>
+		<a class="prev" href="#img2">←</a> 
+        <a class="next" href="#img1">→</a>
+		<div class="clear"></div>
+		</div>
+    </div>
+    
+    	<div class="lightbox" id="img4">
+		<div class="box"> 
+        	<a class="close" href="#">✖</a>
+		<p class="title">Cornflowers</p>
+		<div class="content2"> 
+        	<img src="img/cornflowers.jpg">
+			<p class="desc">Lorem ipsum dolor sit amet, mei et inani gloriatur. Vix an primis meliore referrentur, eos.</p>
+        </div>
+		<a class="prev" href="#img3">←</a> 
+        <a class="next" href="#img5">→</a>
+		<div class="clear"></div>
+		</div>
+    </div>
+    
+    	<div class="lightbox" id="img5">
+		<div class="box"> 
+        	<a class="close" href="#">✖</a>
+		<p class="title">Cosmos</p>
+		<div class="content2"> 
+        	<img src="img/cosmo-flower.jpg">
+			<p class="desc">Lorem ipsum dolor sit amet, mei et inani gloriatur. Vix an primis meliore referrentur, eos.</p>
+        </div>
+		<a class="prev" href="#img4">←</a> 
+        <a class="next" href="#img6">→</a>
+		<div class="clear"></div>
+		</div>
+    </div>
+    
+    	<div class="lightbox" id="img6">
+		<div class="box"> 
+        	<a class="close" href="#">✖</a>
+		<p class="title">Lavender</p>
+		<div class="content2"> 
+        	<img src="img/lavender.jpg">
+			<p class="desc">Lorem ipsum dolor sit amet, mei et inani gloriatur. Vix an primis meliore referrentur, eos.</p>
+        </div>
+		<a class="prev" href="#img5">←</a> 
+        <a class="next" href="#img7">→</a>
+		<div class="clear"></div>
+		</div>
+    </div>
+    
+    	<div class="lightbox" id="img7">
+		<div class="box"> 
+        	<a class="close" href="#">✖</a>
+		<p class="title">Marigold</p>
+		<div class="content2"> 
+        	<img src="img/marigold.jpg">
+			<p class="desc">Lorem ipsum dolor sit amet, mei et inani gloriatur. Vix an primis meliore referrentur, eos.</p>
+        </div>
+		<a class="prev" href="#img6">←</a> 
+        <a class="next" href="#img8">→</a>
+		<div class="clear"></div>
+		</div>
+    </div>
+    
+    	<div class="lightbox" id="img8">
+		<div class="box"> 
+        	<a class="close" href="#">✖</a>
+		<p class="title">Sunflower</p>
+		<div class="content2"><img src="img/sunflower2.jpg">
+			<p class="desc">Lorem ipsum dolor sit amet, mei et inani gloriatur. Vix an primis meliore referrentur, eos.</p>
+        </div>
+		<a class="prev" href="#img7">←</a> 
+        <a class="next" href="#img1">→</a>
+		<div class="clear"></div>
+		</div>
+    </div>
+
+</body>
+</html>

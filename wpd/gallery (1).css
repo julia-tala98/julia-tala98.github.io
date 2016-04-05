@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+/*body {
+	height:100vh;
+	background: linear-gradient(to bottom, #a7cfdf 0%,#23538a 100%);
+    font-size:22px;
+    line-height: 32px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+	word-wrap: break-word !important
+}
+
+
+h1 {
+	margin-top: 100px;
+    font-family: 'Bree Serif', 'serif';
+    font-size: 60px;
+    text-align: center;
+    color: #FFF;
+	
+}   
+
+a {
+    color: #FFF;
+}
+
+p {
+    text-align: center;
+}	*/
+
+#gallery {
+	width:720px;
+	margin:50px auto;
+}
+
+#gallery a {
+	text-decoration:none;
+}
+
+#gallery .item {
+	width: 200px; 
+	height: 200px; 
+	overflow: hidden;
+	float: left !important;
+	border: 5px solid #000;
+	margin: 10px;
+    /*-webkit-box-shadow: 0 8px 6px -6px black;*/
+    box-shadow: 0 8px 6px -6px black;
+}
+
+#gallery .item a { 
+    overflow: hidden;
+}
+
+#gallery .item a img {
+	height: 100%; 
+	align-self: center;
+}
+
+.lightbox {
+	/* Hide the lightbox */
+	opacity: 0;
+	/* Apply basic lightbox styling */
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	top: -100%;
+	left: 0;
+	color:#333333;
+	/*-webkit-transition: opacity .5s ease-in-out;*/
+	transition: opacity .5s ease-in-out;
+}
+
+/** Show lightbox when it is target */
+.lightbox:target {
+	opacity: 1;
+	outline: none;
+	top: 0;
+	transition: opacity .5s ease-in-out;
+}
+
+.lightbox .box {
+  	width: min-content;
+	/*min-width:500px;*/
+ 	margin: 2% auto;
+	padding:10px 20px 10px 20px;
+	background-color:#FFF;
+	box-shadow: 0px 1px 26px -3px #777777; 
+}
+
+.lightbox .title {
+	margin:0;
+	padding:0 0 10px 0px;
+	border-bottom:1px #ccc solid;
+	font-size:22px;
+}
+
+.lightbox .content2 {
+	display:block;
+	position:relative;
+}
+	
+.lightbox .content2 .desc {
+	z-index:99;
+	bottom:0;
+	position:absolute;
+	padding:10px;
+	margin:0 0 4px 0;
+	background:rgba(0,0,0,0.6);
+	color:#fff;
+	font-size:17px;
+	opacity:0;
+	text-align: left;
+	transition: opacity ease-in-out 0.5s;
+}	
+	
+.lightbox .content2:hover .desc	{
+	opacity:1;
+}
+
+.lightbox .next, .lightbox .prev, .lightbox .close {
+	display:block;
+	text-decoration:none;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#000;
+}
+
+.lightbox .next, .lightbox .prev {
+	font-size:52px;
+}
+
+.lightbox .close {
+	font-size:22px;
+}
+
+.prev {
+	float:left;
+}
+
+.next, .close {
+	float:right;
+}
+	
+.clear {
+	display:block;
+	clear:both;
+}
