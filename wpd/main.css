@@ -99,8 +99,8 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 */
 .toggle {
   text-decoration: none;
-  font-size: 30px;
-  color: #000;
+  font-size: 50px;
+  color: black;
   transition: all ease-out 0.5s ;
   position: fixed;
   top: 20px;
@@ -196,6 +196,7 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	clear: both; /* this clear property forces the .container to understand where the columns end and contain them */
 }
 
+
 /* ~~ miscellaneous float/clear classes ~~ */
 .fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
 	float: right;
@@ -211,7 +212,7 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	font-size: 1px;
 	line-height: 0px;
 }
-.cont {
+/*.cont {
 	position:relative;
 }
 .box2 {
@@ -221,6 +222,6 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	top:50%;
 	+transform(translate(-50%, -50%))
 }
-.text{
+*/.text{
 	text-align:center;
 }
