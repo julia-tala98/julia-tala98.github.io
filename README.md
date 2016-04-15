@@ -6,5 +6,6 @@ Honey bees are the workers of the world. Without them, life would likely change 
 
 To create a cohesive and nice-looking page I have used images from other websites. Below are the links to the pages I borrowed images from.
 
+Format: ![Background image](http://wallpapercraze.com/images/wallpapers/honey_honeycomb_w1.jpeg)
 [Background image](http://www.recipeshubs.com/honeycomb/15938)
 
