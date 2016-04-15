@@ -4,7 +4,7 @@ Honey bees are the workers of the world. Without them, life would likely change 
 
 ##[click here](http://julia-tala98.github.io) to see my page! 
 
-To create a cohesive and nice-looking page I have used images from other websites. Below are the links to the pages I borrowed images from.
+To create a cohesive and nice-looking page I have used images from other websites. Below are the images I used. Click on the picture to go to the page I borrowed from.
 
 Main background image: ![Background image](http://wallpapercraze.com/images/wallpapers/honey_honeycomb_w1.jpeg)
 
