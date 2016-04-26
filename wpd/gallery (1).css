@@ -71,7 +71,6 @@ p {
 	height: 100%;
 	top: -100%;
 	left: 0;
-	color:#333333;
 	/*-webkit-transition: opacity .5s ease-in-out;*/
 	transition: opacity .5s ease-in-out;
 }
@@ -89,7 +88,7 @@ p {
 	/*min-width:500px;*/
  	margin: 2% auto;
 	padding:10px 20px 10px 20px;
-	background-color:#FFF;
+	background-color:rgb(87, 115, 5);
 	box-shadow: 0px 1px 26px -3px #777777; 
 }
 
