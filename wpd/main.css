@@ -111,7 +111,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
   transition: all ease-out 0.5s ;
   width: 120px;
   padding: 30px;
-  background: rgba(51,51,51,0.6);
+  background: rgba(87, 115, 5, 0.6);
   z-index: 0;
    }
   .sidebar ul {
@@ -126,7 +126,8 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
     margin: 0;
     margin-bottom: 16px;
     -webkit-font-smoothing: antialiased;
-    cursor: pointer; }
+    cursor: pointer;
+	}
     .sidebar li:hover {
       color: white; }
 
@@ -206,19 +207,6 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	height:0;
 	font-size: 1px;
 	line-height: 0px;
-}
-/*.cont {
-	position:relative;
-}
-.box2 {
-	width:400px;
-	position:absolute;
-	left:50%;
-	top:50%;
-	+transform(translate(-50%, -50%))
-}
-*/.text{
-	text-align:center;
 }
 .image{
     display: block;
