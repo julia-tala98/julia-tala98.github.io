@@ -68,6 +68,10 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	background-image: url(img/bumblebee.jpg);
 	background-size:cover;
 	border-bottom: 10px rgb(87, 115, 5) solid;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .header2 {
@@ -216,5 +220,16 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus { /* this changes the background
 	border-top:10px rgb(87, 115, 5) solid;
 	border-right:10px rgb(87, 115, 5) solid;
 	border-left:10px rgb(87, 115, 5) solid;
+}
+p{
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+h1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+h2{font-family:Georgia, "Times New Roman", Times, serif;
+}
+.logo{
+	float:left;
 }
 	
